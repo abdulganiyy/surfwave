@@ -1,0 +1,12 @@
+.Backdrop {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  background-color: rgba(48, 48, 48, 0.7);
+  transform: translateY(-1000px);
+}
+
+.Open {
+  transform: translateY(0);
+}

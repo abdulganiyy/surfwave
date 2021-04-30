@@ -1,0 +1,12 @@
+.Sidebar {
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  z-index: 150;
+  background-color: #686de0;
+  display: none;
+}
+
+.Open {
+  display: block !important;
+}

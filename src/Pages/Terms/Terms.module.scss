@@ -1,0 +1,13 @@
+.Wrap {
+  padding: 1rem;
+
+  .Wrap > h2 {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Wrap {
+    height: calc(100vh - 60px);
+  }
+}

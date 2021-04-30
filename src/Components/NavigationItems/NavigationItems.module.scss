@@ -1,0 +1,18 @@
+.NavigationItems {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+  li {
+    margin: 1rem;
+    font-size: 25px;
+    color: white;
+  }
+}
+
+@media (min-width: 767px) {
+  .NavigationItems {
+    display: flex;
+  }
+}

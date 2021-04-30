@@ -1,0 +1,133 @@
+.Home {
+  width: 100%;
+
+  .CarouselContainer {
+    position: relative;
+    height: 300px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .HeroContent {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba($color: #000000, $alpha: 0.6);
+      color: white;
+      padding: 4rem 2rem;
+
+      h1 {
+        margin: 1rem 0;
+      }
+
+      a {
+        display: inline-block;
+        background-color: #686de0;
+        padding: 1rem 2rem;
+        border-radius: 1.8rem;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+
+  .About {
+    text-align: center;
+    h2 {
+      margin: 2rem;
+    }
+
+    div {
+      width: 70%;
+      margin: 0 auto;
+      font-size: 1.5rem;
+      color: #686de0;
+    }
+
+    .WhyUs {
+      width: 80%;
+      margin: 0 auto;
+
+      article {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: #686de0;
+
+        div {
+          width: 100%;
+          font-size: 1rem;
+          color: white;
+          padding: 2rem;
+
+          h3 {
+            span {
+              display: inline-block;
+              width: 100px;
+              height: 8px;
+              background-color: #008000;
+            }
+          }
+        }
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Home {
+    width: 100%;
+
+    .CarouselContainer {
+      height: calc(100vh - 60px);
+
+      .HeroContent {
+        padding: 10rem 3rem;
+
+        h1 {
+          margin: 2rem 0;
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+
+  .About {
+    display: block;
+
+    .WhyUs {
+      display: flex;
+      width: 90%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      article {
+        display: flex;
+
+        div {
+          width: 60%;
+          text-align: left;
+          padding: 2rem;
+
+          h3 {
+            margin-bottom: 1rem;
+          }
+        }
+
+        img {
+          display: block !important;
+          width: 40%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

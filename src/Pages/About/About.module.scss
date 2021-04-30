@@ -1,0 +1,133 @@
+.Wrapper {
+  padding: 1rem 0;
+  height: auto;
+
+  .About {
+    text-align: center;
+
+    img {
+      width: 100%;
+      margin: auto;
+      height: 300px;
+    }
+
+    p {
+      padding: 1rem;
+    }
+  }
+
+  .About > h2 {
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 0.5rem;
+    border-bottom: 5px solid #686de0;
+  }
+
+  .TeamsWrap {
+    text-align: center;
+
+    h2 {
+      display: inline-block;
+      padding-bottom: 0.5rem;
+      margin: auto;
+      margin-bottom: 1rem;
+      border-bottom: 5px solid #686de0;
+    }
+    .Teams {
+      width: 80%;
+      margin: auto;
+    }
+
+    .Teams > div {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      background-color: #686de0;
+      text-align: center;
+      width: 100%;
+    }
+
+    .Teams > div > img {
+      width: 100%;
+      height: 400px;
+    }
+  }
+
+  .TestimonialsWrap {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+
+    .Testimonials {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .Testimonials > .Testimonial {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+
+    .Testimonial > .TestimonialBody {
+      padding: 40px 40px 80px;
+    }
+
+    .TestimonialBody {
+      p {
+        color: #555;
+        font-size: 20px;
+        line-height: 36px;
+        margin: 0;
+      }
+
+      i {
+        color: #eee;
+        font-size: 40px;
+      }
+
+      div {
+        display: flex;
+      }
+
+      .Right {
+        justify-content: flex-end;
+      }
+
+      .Left {
+        justify-content: flex-start;
+      }
+    }
+
+    .TestimonialFooter {
+      background-color: #686de0;
+      color: #fff;
+      padding: 40px;
+      text-align: center;
+
+      img {
+        border-radius: 50%;
+        border: 5px solid #fff;
+        height: 120px;
+        width: 120px;
+        margin-top: -100px;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 767px) {
+  .Teams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    margin: auto;
+    gap: 1rem;
+  }
+
+  .Testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
