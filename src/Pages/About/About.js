@@ -29,22 +29,22 @@ class About extends Component {
             <div className={classes.Teams}>
               <div>
                 <img src={img1} alt="founder" />
-                <h1>Ajisegiri Temitope</h1>
+                <h1>AJISEGIRI TEMITOPE</h1>
                 <p>CEO & Founder</p>
               </div>
               <div>
                 <img src={img3} alt="analyst" />
-                <h1>Adelowo Ayodeji</h1>
+                <h1>ADELOWO AYODEJI</h1>
                 <p>Administrator</p>
               </div>
               <div>
                 <img src={img2} alt="salesman" />
-                <h1>Adewale Awwal</h1>
+                <h1>ADEWALE AWWAL</h1>
                 <p>Analyst & Trainer</p>
               </div>
               <div>
                 <img src={img4} alt="developer" />
-                <h1>Lasisi-Balogun</h1>
+                <h1>BALOGUN ABDULGANIYY</h1>
                 <p>Software Engineer</p>
               </div>
             </div>

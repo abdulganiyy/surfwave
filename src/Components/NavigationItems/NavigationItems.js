@@ -8,6 +8,7 @@ const navigationitems = (props) => {
       <NavigationItem link="/">Home</NavigationItem>
       <NavigationItem link="/about">About Us</NavigationItem>
       <NavigationItem link="/terms">Our Terms</NavigationItem>
+      <NavigationItem link="/offer">Our Offer</NavigationItem>
       {/* <NavigationItem>Login</NavigationItem>
       <NavigationItem>Signup</NavigationItem> */}
     </ul>

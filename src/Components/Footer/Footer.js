@@ -22,10 +22,18 @@ class Footer extends Component {
             <i class="fab fa-whatsapp"></i>07089266134, 08139737934
           </p>
           <p>
-            <a href="" target="_blank">
+            <a
+              style={{ color: "white", textDecoration: "none" }}
+              href="http://www.twitter.com/surfwave_official"
+              target="_blank"
+            >
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="" target="_blank">
+            <a
+              style={{ color: "white", textDecoration: "none" }}
+              href="http://www.instagram.com/surfwave_official"
+              target="_blank"
+            >
               <i class="fab fa-instagram"></i>
             </a>
           </p>

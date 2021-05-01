@@ -1,9 +1,16 @@
 .NavigationItem {
   list-style: none;
   margin-left: 1rem;
+  border-bottom: 1px solid black;
 
   a {
     text-decoration: none;
     color: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .NavigationItem {
+    border-bottom: none;
   }
 }
